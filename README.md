@@ -1,3 +1,6 @@
 # ContrasGAN: Unsupervised Domain Adaptation in Human Activity Recognition via Adversarial and Contrastive Learning
 
 Human Activity Recognition (HAR) makes it possible to drive applications directly from embedded and wearable sensors. Machine learning, and especially deep learning, has made significant progress in learning sensor features from raw sensing signals with high recognition accuracy. However, most techniques need to be trained on a large labelled dataset, which is often difficult to acquire. In this paper, we present ContrasGAN, an unsupervised domain adaptation technique that addresses this labelling challenge by transferring an activity model from one labelled domain to other unlabelled domains. ContrasGAN uses bi-directional generative adversarial networks for heterogeneous feature transfer and contrastive learning to capture distinctive features between classes. We evaluate ContrasGAN on three commonly-used HAR datasets under conditions of cross-body, cross-user, and cross-sensor transfer learning. Experimental results show a superior performance of ContrasGAN on all these tasks over a number of state-of-the-art techniques, with relatively low computational cost.
+
+![image](https://user-images.githubusercontent.com/35504627/132672556-7737dea0-490c-43ea-a3e4-4e3f8310ed83.png)
+
